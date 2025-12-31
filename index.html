@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Delulu Rotulista 🧃</title>
+    <title>Delulu Rotulista</title>
     <script src="/_sdk/element_sdk.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
@@ -281,7 +281,7 @@
             class="text-3xl md:text-5xl font-bold mb-4"
             style="color: #ff6b00"
           >
-            🧃🎧✨ DELULU ROTULISTA
+            DELULU ROTULISTA
           </p>
           <p
             id="subtitle"
@@ -320,186 +320,109 @@
         </div>
       </section>
       <!-- Image Slider Gallery -->
-      <section
-        class="py-12 sm:py-16 md:py-20 px-2 sm:px-4"
-        style="background: #ff6b00"
-      >
-        <div class="max-w-6xl mx-auto">
+      <section class="py-20 px-4" style="background: #ff6b00">
+        <div class="max-w-7xl mx-auto">
           <h2
-            class="font-display text-3xl sm:text-4xl md:text-5xl mb-6 md:mb-8 text-center px-2"
+            class="font-display text-4xl md:text-5xl mb-8 text-center"
             style="color: #ffffff"
           >
-            📸 Galería Rotulista
+            Galería Rotulista
           </h2>
-          <p
-            class="text-base sm:text-lg md:text-xl text-center mb-8 md:mb-12 px-2"
-            style="color: #ffffff"
-          >
+          <p class="text-xl text-center mb-12" style="color: #ffffff">
             Estética de barrio en cada diseño
           </p>
-          <!-- Slider Container -->
-          <div
-            class="relative overflow-hidden rounded-2xl sm:rounded-3xl border-2 sm:border-4"
-            style="border-color: #ffffff"
-          >
+          <!-- Grid Uniforme - Mismo tamaño que las otras galerías -->
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <!-- Image 1 -->
             <div
-              id="slider-track"
-              class="flex transition-transform duration-500 ease-in-out"
+              class="gallery-item-slider aspect-square overflow-hidden rounded-2xl border-4 hover:scale-105 transition-transform duration-300 cursor-pointer"
+              style="border-color: #ffffff"
+              data-src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(1).jpg"
             >
-              <!-- Slide 1 -->
-              <div
-                class="min-w-full h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] relative flex-shrink-0"
-              >
-                <img
-                  src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(1).jpg"
-                  alt="Rotulo 1"
-                  class="w-full h-full object-contain"
-                  style="background: #1a1a1a"
-                  onerror="this.style.display='none';"
-                />
-                <div
-                  class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none"
-                ></div>
-              </div>
-              <!-- Slide 2 -->
-              <div
-                class="min-w-full h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] relative flex-shrink-0"
-              >
-                <img
-                  src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(2).jpg"
-                  alt="Rotulo 2"
-                  class="w-full h-full object-contain"
-                  style="background: #1a1a1a"
-                  onerror="this.style.display='none';"
-                />
-                <div
-                  class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none"
-                ></div>
-              </div>
-              <!-- Slide 3 -->
-              <div
-                class="min-w-full h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] relative flex-shrink-0"
-              >
-                <img
-                  src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(3).jpg"
-                  alt="Rotulo 3"
-                  class="w-full h-full object-contain"
-                  style="background: #1a1a1a"
-                  onerror="this.style.display='none';"
-                />
-                <div
-                  class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none"
-                ></div>
-              </div>
-              <!-- Slide 4 -->
-              <div
-                class="min-w-full h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] relative flex-shrink-0"
-              >
-                <img
-                  src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(4).jpg"
-                  alt="Rotulo 4"
-                  class="w-full h-full object-contain"
-                  style="background: #1a1a1a"
-                  onerror="this.style.display='none';"
-                />
-                <div
-                  class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none"
-                ></div>
-              </div>
-              <!-- Slide 5 -->
-              <div
-                class="min-w-full h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] relative flex-shrink-0"
-              >
-                <img
-                  src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(5).jpg"
-                  alt="Rotulo 5"
-                  class="w-full h-full object-contain"
-                  style="background: #1a1a1a"
-                  onerror="this.style.display='none';"
-                />
-                <div
-                  class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none"
-                ></div>
-              </div>
-              <!-- Slide 6 -->
-              <div
-                class="min-w-full h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] relative flex-shrink-0"
-              >
-                <img
-                  src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(6).jpg"
-                  alt="Rotulo 6"
-                  class="w-full h-full object-contain"
-                  style="background: #1a1a1a"
-                  onerror="this.style.display='none';"
-                />
-                <div
-                  class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none"
-                ></div>
-              </div>
-              <!-- Slide 7 -->
-              <div
-                class="min-w-full h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] relative flex-shrink-0"
-              >
-                <img
-                  src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(7).jpg"
-                  alt="Rotulo 7"
-                  class="w-full h-full object-contain"
-                  style="background: #1a1a1a"
-                  onerror="this.style.display='none';"
-                />
-                <div
-                  class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none"
-                ></div>
-              </div>
+              <img
+                src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(1).jpg"
+                alt="Rotulo 1"
+                class="w-full h-full object-cover"
+                onerror="this.style.display='none';"
+              />
             </div>
-            <!-- Navigation Arrows -->
-            <button
-              id="prev-slide"
-              class="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center text-xl sm:text-2xl transition-all hover:scale-110 z-10"
-              style="background: rgba(255, 0, 122, 0.9); color: #ffffff"
-            >
-              ←
-            </button>
-            <button
-              id="next-slide"
-              class="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center text-xl sm:text-2xl transition-all hover:scale-110 z-10"
-              style="background: rgba(255, 0, 122, 0.9); color: #ffffff"
-            >
-              →
-            </button>
-            <!-- Dots Indicator -->
+            <!-- Image 2 -->
             <div
-              class="absolute bottom-3 sm:bottom-6 left-1/2 -translate-x-1/2 flex gap-1.5 sm:gap-2 z-10"
-              id="slider-dots"
+              class="gallery-item-slider aspect-square overflow-hidden rounded-2xl border-4 hover:scale-105 transition-transform duration-300 cursor-pointer"
+              style="border-color: #ffffff"
+              data-src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(2).jpg"
             >
-              <button
-                class="slider-dot w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all"
-                style="background: #ffffff"
-              ></button>
-              <button
-                class="slider-dot w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all"
-                style="background: rgba(255, 255, 255, 0.5)"
-              ></button>
-              <button
-                class="slider-dot w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all"
-                style="background: rgba(255, 255, 255, 0.5)"
-              ></button>
-              <button
-                class="slider-dot w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all"
-                style="background: rgba(255, 255, 255, 0.5)"
-              ></button>
-              <button
-                class="slider-dot w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all"
-                style="background: rgba(255, 255, 255, 0.5)"
-              ></button>
-              <button
-                class="slider-dot w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all"
-                style="background: rgba(255, 255, 255, 0.5)"
-              ></button>
-              <button
-                class="slider-dot w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all"
-                style="background: rgba(255, 255, 255, 0.5)"
-              ></button>
+              <img
+                src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(2).jpg"
+                alt="Rotulo 2"
+                class="w-full h-full object-cover"
+                onerror="this.style.display='none';"
+              />
+            </div>
+            <!-- Image 3 -->
+            <div
+              class="gallery-item-slider aspect-square overflow-hidden rounded-2xl border-4 hover:scale-105 transition-transform duration-300 cursor-pointer"
+              style="border-color: #ffffff"
+              data-src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(3).jpg"
+            >
+              <img
+                src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(3).jpg"
+                alt="Rotulo 3"
+                class="w-full h-full object-cover"
+                onerror="this.style.display='none';"
+              />
+            </div>
+            <!-- Image 4 -->
+            <div
+              class="gallery-item-slider aspect-square overflow-hidden rounded-2xl border-4 hover:scale-105 transition-transform duration-300 cursor-pointer"
+              style="border-color: #ffffff"
+              data-src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(4).jpg"
+            >
+              <img
+                src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(4).jpg"
+                alt="Rotulo 4"
+                class="w-full h-full object-cover"
+                onerror="this.style.display='none';"
+              />
+            </div>
+            <!-- Image 5 -->
+            <div
+              class="gallery-item-slider aspect-square overflow-hidden rounded-2xl border-4 hover:scale-105 transition-transform duration-300 cursor-pointer"
+              style="border-color: #ffffff"
+              data-src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(5).jpg"
+            >
+              <img
+                src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(5).jpg"
+                alt="Rotulo 5"
+                class="w-full h-full object-cover"
+                onerror="this.style.display='none';"
+              />
+            </div>
+            <!-- Image 6 -->
+            <div
+              class="gallery-item-slider aspect-square overflow-hidden rounded-2xl border-4 hover:scale-105 transition-transform duration-300 cursor-pointer"
+              style="border-color: #ffffff"
+              data-src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(6).jpg"
+            >
+              <img
+                src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(6).jpg"
+                alt="Rotulo 6"
+                class="w-full h-full object-cover"
+                onerror="this.style.display='none';"
+              />
+            </div>
+            <!-- Image 7 -->
+            <div
+              class="gallery-item-slider aspect-square overflow-hidden rounded-2xl border-4 hover:scale-105 transition-transform duration-300 cursor-pointer"
+              style="border-color: #ffffff"
+              data-src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(7).jpg"
+            >
+              <img
+                src="https://raw.githubusercontent.com/frontenddeveloper2025dev/rotulosweb/refs/heads/main/REC-RO%20(7).jpg"
+                alt="Rotulo 7"
+                class="w-full h-full object-cover"
+                onerror="this.style.display='none';"
+              />
             </div>
           </div>
         </div>
@@ -1664,7 +1587,7 @@ Venimos a honrarla, pintarla, amplificarla.
 Porque en cada píxel vive una manta.
 En cada variable, un letrero de la esquina.
 
-"¡Pásele, joven! Aquí hay diseño con alma."
+"¡P����sele, joven! Aquí hay diseño con alma."
 
 ¿Te late esta vibra? 💜`,
         },
@@ -2069,7 +1992,7 @@ Pero puedo ayudarte con:
           ],
         },
         estrategia: {
-          icon: "🔮",
+          icon: "���",
           title: "Estrategia visual sin blanquear",
           description: "Tu marca grita sin perder raíz",
           details: [
@@ -2130,74 +2053,6 @@ Pero puedo ayudarte con:
       // Initialize chat when page loads
       window.addEventListener("load", initChat);
 
-      // Image Slider Functionality
-      const sliderTrack = document.getElementById("slider-track");
-      const prevBtn = document.getElementById("prev-slide");
-      const nextBtn = document.getElementById("next-slide");
-      const dots = document.querySelectorAll(".slider-dot");
-      let currentSlide = 0;
-      const totalSlides = 7;
-      let autoSlideInterval;
-
-      function goToSlide(index) {
-        if (index < 0) index = totalSlides - 1;
-        if (index >= totalSlides) index = 0;
-
-        currentSlide = index;
-        sliderTrack.style.transform = `translateX(-${currentSlide * 100}%)`;
-
-        // Update dots
-        dots.forEach((dot, i) => {
-          if (i === currentSlide) {
-            dot.style.background = "#FFFFFF";
-            dot.style.transform = "scale(1.2)";
-          } else {
-            dot.style.background = "rgba(255, 255, 255, 0.5)";
-            dot.style.transform = "scale(1)";
-          }
-        });
-      }
-
-      function nextSlide() {
-        goToSlide(currentSlide + 1);
-      }
-
-      function prevSlide() {
-        goToSlide(currentSlide - 1);
-      }
-
-      function startAutoSlide() {
-        autoSlideInterval = setInterval(nextSlide, 4000);
-      }
-
-      function stopAutoSlide() {
-        clearInterval(autoSlideInterval);
-      }
-
-      // Event listeners
-      prevBtn.addEventListener("click", () => {
-        prevSlide();
-        stopAutoSlide();
-        startAutoSlide();
-      });
-
-      nextBtn.addEventListener("click", () => {
-        nextSlide();
-        stopAutoSlide();
-        startAutoSlide();
-      });
-
-      dots.forEach((dot, index) => {
-        dot.addEventListener("click", () => {
-          goToSlide(index);
-          stopAutoSlide();
-          startAutoSlide();
-        });
-      });
-
-      // Start auto slide on page load
-      startAutoSlide();
-
       // Chat toggle functionality
       const chatToggle = document.getElementById("chat-toggle");
       const chatWindow = document.getElementById("chat-window");
@@ -2225,6 +2080,9 @@ Pero puedo ayudarte con:
 
       // Gallery Lightbox Functionality
       const galleryItems = document.querySelectorAll(".gallery-item");
+      const galleryItemsSlider = document.querySelectorAll(
+        ".gallery-item-slider"
+      );
       const galleryItemsTikTok = document.querySelectorAll(
         ".gallery-item-tiktok"
       );
@@ -2235,8 +2093,12 @@ Pero puedo ayudarte con:
       const nextImageBtn = document.getElementById("next-image");
       const imageCounter = document.getElementById("image-counter");
 
-      // Combine both galleries
-      const allGalleryItems = [...galleryItems, ...galleryItemsTikTok];
+      // Combine all galleries
+      const allGalleryItems = [
+        ...galleryItemsSlider,
+        ...galleryItems,
+        ...galleryItemsTikTok,
+      ];
       const galleryImages = allGalleryItems.map((item) =>
         item.getAttribute("data-src")
       );
@@ -2274,15 +2136,22 @@ Pero puedo ayudarte con:
         }`;
       }
 
-      // Event listeners for gallery
-      galleryItems.forEach((item, index) => {
+      // Event listeners for slider gallery
+      galleryItemsSlider.forEach((item, index) => {
         item.addEventListener("click", () => openLightbox(index));
+      });
+
+      // Event listeners for regular gallery
+      galleryItems.forEach((item, index) => {
+        item.addEventListener("click", () =>
+          openLightbox(galleryItemsSlider.length + index)
+        );
       });
 
       // Event listeners for TikTok gallery
       galleryItemsTikTok.forEach((item, index) => {
         item.addEventListener("click", () =>
-          openLightbox(galleryItems.length + index)
+          openLightbox(galleryItemsSlider.length + galleryItems.length + index)
         );
       });
 
@@ -2313,7 +2182,7 @@ Pero puedo ayudarte con:
           if (b) {
             var d = b.createElement("script");
             d.innerHTML =
-              "window.__CF$cv$params={r:'9b68f5602047eef2',t:'MTc2NzE3NTUyNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+              "window.__CF$cv$params={r:'9b69036cb7ebeef2',t:'MTc2NzE3NjEwMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
             b.getElementsByTagName("head")[0].appendChild(d);
           }
         }
